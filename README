@@ -1,0 +1,38 @@
+This is a plugin for the pidgin / finch im client.
+
+The plugin allows you to pass a buddies messages to the Cleverbot website and have cleverbot reply.
+
+At the moment it is Linux only, at some stage I might try to compile a windows dll.
+
+You will need openssl, curl, GTK and the development headers for pidgin to compile it.
+
+-----------------------------------------------------------
+Installation
+-----------------------------------------------------------
+
+To compile, run
+    make
+
+This should compile clever_chat.so.
+
+To install this to ~/.purple/plugins run
+    make install
+
+You can also copy it manually.
+
+If you do not want to compile it, you can try downloading the compiled file from the downloads section.
+
+-----------------------------------------------------------
+Usage
+-----------------------------------------------------------
+
+To start sending messages for a buddy to clever bot, right click the buddy and click Start Clever Chat (Or select the option from the conversation menu).
+
+To stop, right click and click Stop Cleverbot.
+
+It hangs the interface while it sends to cleverbot, which isn't ideal.
+Tried to fix this by doing the sending in another thread, but it didn't work too well, the conversation window sometimes wasn't updated properly, even though the messages were going through ok.
+
+Becase of this I just left it the way it was.
+
+Hope it works ok for you, enjoy.
