@@ -1,38 +1,19 @@
-This is a plugin for the pidgin / finch im client.
+This was a silly little plugin for the pidgin / finch im client.
 
 The plugin allows you to pass a buddies messages to the Cleverbot website and have cleverbot reply.
 
-At the moment it is Linux only, at some stage I might try to compile a windows dll.
+Someone at cleverbot pointed out to me that it is against the rules of their site to use any client other than
+the cleverbot site itself and asked me not to use this code.
 
-You will need openssl, curl, GTK and the development headers for pidgin to compile it.
+> Conversational access is granted only to humans using this Cleverbot.com interface directly
 
------------------------------------------------------------
-Installation
------------------------------------------------------------
+Because of this I won't be developing the plugin any further and I've removed the binary from the downloads.
 
-To compile, run
-    make
+I'm leaving the code here for reference.
+It would be easy to change this to work with some other service by changing send_clever_message, process_result
+and the post_data struct.
 
-This should compile clever_chat.so.
+If you do try to build the plugin and use it to communicate to the cleverbot website without permission then
+you are probably breaking their rules.
 
-To install this to ~/.purple/plugins run
-    make install
-
-You can also copy it manually.
-
-If you do not want to compile it, you can try downloading the compiled file from the downloads section.
-
------------------------------------------------------------
-Usage
------------------------------------------------------------
-
-To start sending messages for a buddy to clever bot, right click the buddy and click Start Clever Chat (Or select the option from the conversation menu).
-
-To stop, right click and click Stop Cleverbot.
-
-It hangs the interface while it sends to cleverbot, which isn't ideal.
-Tried to fix this by doing the sending in another thread, but it didn't work too well, the conversation window sometimes wasn't updated properly, even though the messages were going through ok.
-
-Becase of this I just left it the way it was.
-
-Hope it works ok for you, enjoy.
+Sorry about that.
