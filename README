@@ -2,18 +2,15 @@ This was a silly little plugin for the pidgin / finch im client.
 
 The plugin allows you to pass a buddy's messages to the Cleverbot website and have cleverbot reply.
 
-Someone at cleverbot pointed out to me that it is against the rules of their site to use any client other than
-the cleverbot site itself and asked me not to use this code.
+Someone at cleverbot pointed out to me that it is against the rules of their site to use any client other than the cleverbot site itself and asked me not to use this code.
 
 > Conversational access is granted only to humans using this Cleverbot.com interface directly
 
 Because of this I won't be developing the plugin any further and I've removed the binary from the downloads.
 
 I'm leaving the code here for reference.
-It would be easy to change this to work with some other service by changing send_clever_message, process_result
-and the post_data struct.
+It would be easy to change this to work with some other service by changing send_clever_message, process_result and the post_data struct.
 
-If you do try to build the plugin and use it to communicate to the cleverbot website without permission then
-you are probably breaking their rules.
+If you do try to build the plugin and use it to communicate to the cleverbot website without permission then you are probably breaking their rules.
 
 Sorry about this.
