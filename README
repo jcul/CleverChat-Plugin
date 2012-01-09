@@ -1,6 +1,6 @@
 This was a silly little plugin for the pidgin / finch im client.
 
-The plugin allows you to pass a buddies messages to the Cleverbot website and have cleverbot reply.
+The plugin allows you to pass a buddy's messages to the Cleverbot website and have cleverbot reply.
 
 Someone at cleverbot pointed out to me that it is against the rules of their site to use any client other than
 the cleverbot site itself and asked me not to use this code.
@@ -16,4 +16,4 @@ and the post_data struct.
 If you do try to build the plugin and use it to communicate to the cleverbot website without permission then
 you are probably breaking their rules.
 
-Sorry about that.
+Sorry about this.
