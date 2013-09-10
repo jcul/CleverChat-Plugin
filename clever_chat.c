@@ -53,7 +53,7 @@ char* format_str( post_data* post ){
     NULL);
 
     //Get that md5sum we were talking about...
-    md5 = gen_md5( strndup( str1 + 9, 20 ) );
+    md5 = gen_md5( strndup( str1 + 9, 26 ) );
 
     res = g_strconcat( str1, md5, 
                         "&fno=0&prevref=", (*post).prevref,             //prevref is from the last response from Cleverbot
